@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1136" viewBox="0 0 640 1136">
+<rect width="640" height="1136" fill="#0f172a"/><rect x="40" y="40" width="560" height="1056" rx="36" fill="#1e293b"/>
+<text x="90" y="130" font-size="48" fill="#fff" font-family="Arial">Level 1</text>
+<rect x="90" y="860" width="440" height="22" rx="11" fill="#475569"/>
+<rect x="160" y="700" width="150" height="18" rx="9" fill="#64748b"/><rect x="360" y="590" width="120" height="18" rx="9" fill="#64748b"/>
+<circle cx="220" cy="650" r="34" fill="#f59e0b"/><text x="185" y="980" font-size="34" fill="#cbd5e1" font-family="Arial">Tap to jump</text></svg>

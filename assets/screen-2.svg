@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1136" viewBox="0 0 640 1136">
+<rect width="640" height="1136" fill="#111827"/><rect x="40" y="40" width="560" height="1056" rx="36" fill="#1f2937"/>
+<text x="75" y="130" font-size="46" fill="#fff" font-family="Arial">Fish Hunt</text>
+<circle cx="160" cy="260" r="18" fill="#fde68a"/><circle cx="280" cy="360" r="18" fill="#fde68a"/><circle cx="420" cy="270" r="18" fill="#fde68a"/>
+<rect x="90" y="800" width="460" height="24" rx="12" fill="#475569"/><circle cx="280" cy="720" r="36" fill="#f59e0b"/>
+<text x="150" y="980" font-size="34" fill="#cbd5e1" font-family="Arial">Collect fish and coins</text></svg>

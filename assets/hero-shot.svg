@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
+  <circle cx="710" cy="110" r="54" fill="#fde68a"/>
+  <rect x="70" y="450" width="760" height="26" rx="13" fill="#334155"/>
+  <rect x="180" y="360" width="150" height="18" rx="9" fill="#475569"/>
+  <rect x="420" y="300" width="120" height="18" rx="9" fill="#475569"/>
+  <rect x="620" y="230" width="130" height="18" rx="9" fill="#475569"/>
+  <g transform="translate(300,285)">
+    <ellipse cx="0" cy="62" rx="66" ry="54" fill="#f59e0b"/>
+    <circle cx="-48" cy="12" r="26" fill="#f59e0b"/>
+    <polygon points="-65,-4 -82,-36 -42,-17" fill="#f59e0b"/>
+    <polygon points="-29,-8 -10,-38 5,-8" fill="#f59e0b"/>
+    <circle cx="-56" cy="10" r="4" fill="#111827"/>
+    <circle cx="-38" cy="10" r="4" fill="#111827"/>
+    <circle cx="-48" cy="22" r="4" fill="#111827"/>
+    <rect x="28" y="42" width="56" height="18" rx="9" transform="rotate(-30 28 42)" fill="#f59e0b"/>
+    <rect x="-10" y="102" width="18" height="54" rx="9" fill="#f59e0b"/>
+    <rect x="34" y="98" width="18" height="58" rx="9" fill="#f59e0b"/>
+  </g>
+  <text x="70" y="100" font-size="48" fill="#ffffff" font-family="Arial, sans-serif" font-weight="700">Jump Cat</text>
+  <text x="70" y="150" font-size="24" fill="#dbeafe" font-family="Arial, sans-serif">Arcade jumping adventure landing page preview</text>
+</svg>
