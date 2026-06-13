@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jump Cat - Fun Arcade Platform Game</title>
-  <meta name="description" content="Jump Cat is a fast-paced arcade platform game. Jump, dodge obstacles, collect fish, and chase high scores." />
+  <title>Jump Cat - Play Online</title>
+  <meta name="description" content="Play Jump Cat online. A simple browser jumping game by PHARMACIE CONFLUENCE." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -12,10 +12,11 @@
     <div class="container nav">
       <div class="logo">🐱 Jump Cat</div>
       <nav>
+        <a href="#play">Play</a>
         <a href="#features">Features</a>
-        <a href="#screenshots">Screenshots</a>
-        <a href="#download">Download</a>
         <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -24,74 +25,68 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Mobile Arcade Adventure</p>
-          <h1>Jump higher. Run faster. Catch every fish.</h1>
+          <p class="eyebrow">Browser Mini Game</p>
+          <h1>Jump Cat</h1>
           <p class="lead">
-            Help a fearless cat leap across rooftops, dodge traps, and collect rewards in a colorful,
-            score-chasing platform game built for quick sessions and repeat play.
+            Control the cat, jump over obstacles, collect fish, and survive as long as possible.
+            This page includes a real playable HTML5 mini game.
           </p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="#download">Download Now</a>
-            <a class="btn btn-secondary" href="#screenshots">View Screenshots</a>
+            <a class="btn btn-primary" href="#play">Play Now</a>
+            <a class="btn btn-secondary" href="privacy.html">Privacy Policy</a>
           </div>
-          <ul class="meta">
-            <li>Fast arcade gameplay</li>
-            <li>Easy tap controls</li>
-            <li>Offline-friendly fun</li>
-          </ul>
         </div>
-        <div class="card preview-card">
-          <img src="assets/hero-shot.svg" alt="Jump Cat gameplay preview" />
+        <div class="card rules-card">
+          <h2>How to Play</h2>
+          <p><strong>Desktop:</strong> Press Space, ↑, W, or click/tap the game.</p>
+          <p><strong>Mobile:</strong> Tap the game area to jump.</p>
+          <p>Fish adds points. Hitting a rock ends the game.</p>
         </div>
       </div>
     </section>
 
-    <section id="features" class="section">
+    <section id="play" class="section">
       <div class="container">
-        <h2>Why players love Jump Cat</h2>
+        <h2>Play Jump Cat Online</h2>
+        <div class="game-wrap card">
+          <div class="game-top">
+            <span>Score: <strong id="score">0</strong></span>
+            <span>Best: <strong id="best">0</strong></span>
+          </div>
+          <canvas id="game" width="900" height="420" aria-label="Jump Cat browser game"></canvas>
+          <div class="game-controls">
+            <button class="btn btn-primary" id="startBtn">Start Game</button>
+            <button class="btn btn-secondary" id="restartBtn">Restart</button>
+          </div>
+          <p class="small-note">Click/tap inside the game or press Space to jump.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section alt">
+      <div class="container">
+        <h2>Game Features</h2>
         <div class="feature-grid">
           <article class="card">
+            <h3>Playable Online</h3>
+            <p>No installation required. Runs directly in the browser.</p>
+          </article>
+          <article class="card">
             <h3>Simple Controls</h3>
-            <p>Tap to jump and keep moving. Easy to learn, difficult to master.</p>
+            <p>One-tap jumping designed for desktop and mobile visitors.</p>
           </article>
           <article class="card">
-            <h3>Challenging Levels</h3>
-            <p>React quickly to moving platforms, spikes, gaps, and surprise hazards.</p>
-          </article>
-          <article class="card">
-            <h3>Collect & Unlock</h3>
-            <p>Gather fish and coins to push your score and unlock more fun moments.</p>
+            <h3>Landing Page Ready</h3>
+            <p>Includes Privacy, Terms, and Contact pages for basic publishing needs.</p>
           </article>
         </div>
-      </div>
-    </section>
-
-    <section id="screenshots" class="section alt">
-      <div class="container">
-        <h2>Game Screenshots</h2>
-        <div class="shots-grid">
-          <img class="card shot" src="assets/screen-1.svg" alt="Jump Cat screenshot 1" />
-          <img class="card shot" src="assets/screen-2.svg" alt="Jump Cat screenshot 2" />
-          <img class="card shot" src="assets/screen-3.svg" alt="Jump Cat screenshot 3" />
-        </div>
-      </div>
-    </section>
-
-    <section id="download" class="section">
-      <div class="container download-box card">
-        <h2>Download Jump Cat</h2>
-        <p>Available for mobile devices. Tap below to get started.</p>
-        <div class="cta-row center">
-          <a class="btn btn-primary" href="#" id="downloadBtn">Get the Game</a>
-        </div>
-        <p class="small-note">Replace the download button link with your App Store or Google Play URL later.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-links">
-      <span>© 2026 Jump Cat. All rights reserved.</span>
+      <span>© 2026 PHARMACIE CONFLUENCE. All rights reserved.</span>
       <div>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
