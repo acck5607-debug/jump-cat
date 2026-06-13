@@ -1,100 +1,111 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jump Cat - Play Online</title>
-  <meta name="description" content="Play Jump Cat online. A simple browser jumping game by PHARMACIE CONFLUENCE." />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Play Jump Cat online. A browser mini game published by PHARMACIE CONFLUENCE.">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <div class="logo">🐱 Jump Cat</div>
-      <nav>
-        <a href="#play">Play</a>
-        <a href="#features">Features</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark">🐱</span><span>Jump Cat</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">HTML5 Browser Mini Game</p>
+      <h1>Jump Cat</h1>
+      <p class="lead">Jump over rocks, collect fish, and survive as long as possible. Play directly in your browser on desktop or mobile.</p>
+      <div class="actions">
+        <a class="btn primary" href="#play">Play Now</a>
+        <a class="btn ghost" href="#company">Company Info</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="mini-screen">
+        <div class="sun"></div>
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+        <div class="cat-face">🐱</div>
+        <div class="platform p1"></div>
+        <div class="platform p2"></div>
+        <div class="platform p3"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="play" class="section">
+    <div class="panel game-panel">
+      <div class="section-head">
         <div>
-          <p class="eyebrow">Browser Mini Game</p>
-          <h1>Jump Cat</h1>
-          <p class="lead">
-            Control the cat, jump over obstacles, collect fish, and survive as long as possible.
-            This page includes a real playable HTML5 mini game.
-          </p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="#play">Play Now</a>
-            <a class="btn btn-secondary" href="privacy.html">Privacy Policy</a>
-          </div>
+          <p class="kicker">Playable Demo</p>
+          <h2>Play Jump Cat Online</h2>
         </div>
-        <div class="card rules-card">
-          <h2>How to Play</h2>
-          <p><strong>Desktop:</strong> Press Space, ↑, W, or click/tap the game.</p>
-          <p><strong>Mobile:</strong> Tap the game area to jump.</p>
-          <p>Fish adds points. Hitting a rock ends the game.</p>
+        <div class="score-box">
+          <span>Score <b id="score">0</b></span>
+          <span>Best <b id="best">0</b></span>
         </div>
       </div>
-    </section>
-
-    <section id="play" class="section">
-      <div class="container">
-        <h2>Play Jump Cat Online</h2>
-        <div class="game-wrap card">
-          <div class="game-top">
-            <span>Score: <strong id="score">0</strong></span>
-            <span>Best: <strong id="best">0</strong></span>
-          </div>
-          <canvas id="game" width="900" height="420" aria-label="Jump Cat browser game"></canvas>
-          <div class="game-controls">
-            <button class="btn btn-primary" id="startBtn">Start Game</button>
-            <button class="btn btn-secondary" id="restartBtn">Restart</button>
-          </div>
-          <p class="small-note">Click/tap inside the game or press Space to jump.</p>
-        </div>
+      <canvas id="game" width="960" height="440"></canvas>
+      <div class="game-actions">
+        <button class="btn primary" id="startBtn">Start Game</button>
+        <button class="btn ghost" id="restartBtn">Restart</button>
       </div>
-    </section>
+      <p class="note">Desktop: Space / ↑ / W. Mobile: tap the game area.</p>
+    </div>
+  </section>
 
-    <section id="features" class="section alt">
-      <div class="container">
-        <h2>Game Features</h2>
-        <div class="feature-grid">
-          <article class="card">
-            <h3>Playable Online</h3>
-            <p>No installation required. Runs directly in the browser.</p>
-          </article>
-          <article class="card">
-            <h3>Simple Controls</h3>
-            <p>One-tap jumping designed for desktop and mobile visitors.</p>
-          </article>
-          <article class="card">
-            <h3>Landing Page Ready</h3>
-            <p>Includes Privacy, Terms, and Contact pages for basic publishing needs.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-links">
-      <span>© 2026 PHARMACIE CONFLUENCE. All rights reserved.</span>
-      <div>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Service</a>
-        <a href="contact.html">Contact</a>
+  <section id="company" class="section two-col">
+    <div class="panel">
+      <p class="kicker">Publisher</p>
+      <h2>PHARMACIE CONFLUENCE</h2>
+      <p>Jump Cat is published under the company information below.</p>
+      <div class="info-grid">
+        <div><span>Company</span><strong>PHARMACIE CONFLUENCE</strong></div>
+        <div><span>SIREN</span><strong>879 207 710</strong></div>
+        <div><span>VAT Number</span><strong>FR15879207710</strong></div>
+        <div><span>Legal Form</span><strong>SELARL, Société d'exercice libéral à responsabilité limitée</strong></div>
+        <div><span>Capital</span><strong>20,000 EUR</strong></div>
+        <div><span>Address</span><strong>22 GRAND RUE, 15190 CONDAT, FRANCE</strong></div>
       </div>
     </div>
-  </footer>
+    <div class="panel">
+      <p class="kicker">Activity</p>
+      <h2>Official Details</h2>
+      <div class="info-list">
+        <p><b>APE Code:</b> 4773Z</p>
+        <p><b>Main Activity:</b> Commerce de détail de produits pharmaceutiques en magasin spécialisé</p>
+        <p><b>Manager:</b> Antoine Rousset</p>
+        <p><b>Registration Date:</b> 25/11/2019</p>
+      </div>
+    </div>
+  </section>
+</main>
 
-  <script src="js/main.js"></script>
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <strong>PHARMACIE CONFLUENCE</strong>
+      <p>22 GRAND RUE, 15190 CONDAT, FRANCE</p>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <p class="copyright">© 2026 PHARMACIE CONFLUENCE. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
